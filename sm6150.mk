@@ -115,8 +115,11 @@ $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI \
+    SettingsGoogle \
     SystemUIGoogle \
-    SystemUI
+    GoogleDialer
 
 # Display
 PRODUCT_PACKAGES += \
