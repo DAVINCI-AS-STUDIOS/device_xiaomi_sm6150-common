@@ -113,6 +113,9 @@ PRODUCT_COPY_FILES += \
 # MIUICamera
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \

@@ -33,3 +33,7 @@ wifi.interface=wlan0
 
 # Disable vsync for cpu render apps
 debug.cpurend.vsync=false
+
+# ART
+dalvik.vm.dex2oat-filter=everything
+dalvik.vm.image-dex2oat-filter=everything
