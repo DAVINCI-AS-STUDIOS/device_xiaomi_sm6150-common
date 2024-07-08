@@ -103,6 +103,8 @@ BOARD_KERNEL_CMDLINE += loop.max_part=8
 BOARD_KERNEL_CMDLINE += cgroup_disable=pressure
 BOARD_KERNEL_CMDLINE += kpti=off
 
+BOARD_RAMDISK_USE_LZ4 := true
+
 # Enable DTB in bootimage and set header version
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_BOOTIMG_HEADER_VERSION := 2
