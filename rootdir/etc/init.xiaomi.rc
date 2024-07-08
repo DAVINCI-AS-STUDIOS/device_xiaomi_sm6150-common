@@ -1,0 +1,10 @@
+#
+# Copyright (C) 2022 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+    # optimize for some games
+    write /proc/sys/kernel/sched_lib_name "com.miHoYo., com.activision., UnityMain, libunity.so, libil2cpp.so, libfb.so"
+    write /proc/sys/kernel/sched_lib_mask_force 240
+

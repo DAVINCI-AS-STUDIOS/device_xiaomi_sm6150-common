@@ -37,3 +37,6 @@ debug.cpurend.vsync=false
 # ART
 dalvik.vm.dex2oat-filter=everything
 dalvik.vm.image-dex2oat-filter=everything
+
+#Evita que se desactive la carga previa de bibliotecas gráficas
+ro.zygote.disable_gl_preload=false
