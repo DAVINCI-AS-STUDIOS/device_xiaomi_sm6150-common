@@ -252,13 +252,3 @@ wifi.aware.interface=wifi-aware0
 
 # Zygote
 zygote.critical_window.minute=10
-
-# Graphics
-debug.hwui.renderer=skiagl
-debug.renderengine.backend=skiaglthreaded
-debug.force_no_blanking=true
-graphics.gpu.profiler.support=true
-vendor.display.use_smooth_motion=1
-vendor.display.enable_hdr10_gpu_target=1
-vendor.display.enable_rc_support=1
-vendor.display.enable_allow_idle_fallback=1
