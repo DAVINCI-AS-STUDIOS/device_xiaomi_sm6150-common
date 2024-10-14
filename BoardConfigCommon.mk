@@ -101,6 +101,9 @@ BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
+# Partitions
+-include vendor/lineage/config/BoardConfigReservedSize.mk
+
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
